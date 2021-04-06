@@ -1,0 +1,14 @@
+.NavigationItems {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  margin: 0px -15px;
+  padding: 0;
+}
+
+@media screen and (max-width: 959px) {
+  .NavigationItems {
+    margin: -15px 0px;
+    flex-direction: column;
+  }
+}

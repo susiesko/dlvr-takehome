@@ -1,0 +1,11 @@
+.SandwichMenuItems {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+.MenuItemCards {
+  flex-direction: row;
+}
+.MenuItemRows {
+  flex-direction: column;
+}

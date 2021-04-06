@@ -1,0 +1,41 @@
+.picked-up {
+  background: #00ac42;
+  color: black;
+}
+
+.picked-up:hover,
+.picked-up:active {
+  background: #005f24;
+  color: white;
+}
+
+.open {
+  background: #fe9c03;
+  color: black;
+}
+
+.open:hover,
+.open:active {
+  background: #b87202;
+}
+
+@media screen and (min-width: 960px) {
+  .OrderSectionHeader {
+    margin-top: 0px;
+  }
+}
+
+@media screen and (max-width: 959px) {
+  .OrderData > div:not(:first-child) {
+    border-top: 1px solid #971d12;
+  }
+  .OrderData > div:not(:last-child) {
+    margin-bottom: 20px;
+  }
+  .open,
+  .picked-up {
+    width: 100%;
+    padding: 20px;
+    border-radius: 40px;
+  }
+}

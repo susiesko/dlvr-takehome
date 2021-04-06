@@ -1,0 +1,23 @@
+.SandwichMenuItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media screen and (max-width: 959px) {
+  .SandwichMenuItem {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .SandwichMenuItem > div {
+    width: 30%;
+  }
+  .SandwichMenuItem > div:last-child {
+    width: 50%;
+  }
+
+  .ImageIcon {
+    display: none;
+  }
+}

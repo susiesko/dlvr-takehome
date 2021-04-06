@@ -1,0 +1,21 @@
+.Container {
+  width: 95%;
+  height: 100%;
+  margin: auto;
+}
+
+.XS {
+  max-width: 599px;
+}
+
+.SM {
+  max-width: 959px;
+}
+
+.MD {
+  max-width: 1279px;
+}
+
+.LG {
+  max-width: 1919px;
+}

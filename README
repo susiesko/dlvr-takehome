@@ -1,0 +1,20 @@
+Theme Color: #EC5451
+text color: #971D12;
+icon color: #FE9C03
+
+THINGS TO KNOW:
+* Components in /components should be mostly for display
+* Components in /containers should be mostly for business logic
+* tried to make it as responsive as possible; maybe this will be an app employees use on a smaller device.
+* I didn't include proptypes in my project because I would have had to add a package
+* I decided to use the context API for the shopping cart state
+* I store the cart data in localstorage until order submission. 
+* If this were a real application I would write API requests and store the orders in a DB!
+* I am plenty familiar with promises but just decided to store the orders in state!
+* If I were to load orders from a DB, I would use lazy and suspense on:
+  * orders list
+  * menu items if there were enough menu items.
+* I assumed users could switch order back to 'open' from pick up (in case they clicked 'picked up' by accident)
+* I want to acknowledge I have not written tests; I have familiarity with Jest, but not enough experience to show off.
+
+

@@ -1,0 +1,36 @@
+input[type="text"] {
+  border: 0px;
+  border-bottom: 2px solid #555;
+}
+
+button {
+  position: relative;
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  border: none;
+  box-shadow: 2px 3px 5px grey, 2px 0px 3px lightgrey;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  background: #ec5451;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  outline: none;
+}
+
+button:hover {
+  background: #971d12;
+  text-decoration: none;
+}
+
+button:active {
+  top: 2px;
+  left: 2px;
+  box-shadow: 1px 1px 3px grey, 1px 0px 3px lightgrey;
+}
+
+button:disabled {
+  background: #ffacab;
+  box-shadow: none;
+}
